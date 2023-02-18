@@ -1,4 +1,7 @@
-# k-Nearest Neighbors (KNN) used in an Etherium Blockchain classification problem
+# Etherium Blockchain phishing detection APP using KNN 
+
+
+
 
 
 ## Libs used:
