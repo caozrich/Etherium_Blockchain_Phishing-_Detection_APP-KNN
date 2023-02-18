@@ -1,8 +1,8 @@
 # k-Nearest Neighbors (KNN) used in an Etherium Blockchain classification problem
 
 
-## Requirements:
-* sklearn==0.0.post1 
+## Libs used:
+* scikit-learn==1.2.1
 * numpy==1.24.2
 * requests==2.28.2
 * matplotlib==3.7.0
