@@ -23,7 +23,7 @@ New samples can be used to be classified by the previously trained model.
 
 <img src="https://user-images.githubusercontent.com/34092193/219829207-8f49d404-e06d-4deb-ab71-86f7fb9fad90.gif" width="600" height="338"/>
 
-It also has a preview of the dataset used,(This dataset contains benign Ethereum blockchain transfers and officially reported phishing scam address transfers. The source of the dataset is the following [**research article**:](https://ieeexplore.ieee.org/document/9943287)
+It also has a preview of the dataset used,(This dataset contains benign Ethereum blockchain transfers and officially reported phishing scam address transfers. The source of the dataset is the following [**research article**](https://ieeexplore.ieee.org/document/9943287)
 
 
 
