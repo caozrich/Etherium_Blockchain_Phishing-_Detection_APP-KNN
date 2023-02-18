@@ -2,7 +2,7 @@
 
 <p align="center">
   <img alt="Files Logo" src="https://user-images.githubusercontent.com/34092193/219829292-d6555e66-b002-45de-ad59-3e14a2016dfe.png" width="450" />
-  <h2 align="center">Lively Wallpaper</h2>
+  <h2 align="center">Ether_Phishing_Classifier</h2>
 </p>
 
 
