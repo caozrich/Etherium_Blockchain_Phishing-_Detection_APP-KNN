@@ -10,11 +10,8 @@ def getTxData (address,hash):
     response = requests.get(url) 
     address_content = response.json() 
     result = address_content.get("result") 
-
-    for transaction in result: 
-        
-        ihash = transaction.get("hash") 
-
+    for transaction in result:         
+        ihash = transaction.get("hash")
         if ihash == hash:
             tx_from = transaction.get("from") 
             tx_to = transaction.get("to") 
@@ -22,22 +19,13 @@ def getTxData (address,hash):
             TimeStamp = int(transaction.get("timeStamp"))
             BlockHeight = int(transaction.get("blockNumber"))    
             imputData = transaction.get("input")   
-            contractAddress = transaction.get("contractAddress")  
-              
+            contractAddress = transaction.get("contractAddress")             
             if contractAddress == "":
-                contractAddress = np.nan
-                
+                contractAddress = np.nan            
             value =  value/10**18
-            
-            
-    
+                     
     list = [[hash,BlockHeight,TimeStamp,tx_from,tx_to,value,contractAddress,imputData]]
-
-
     newtx = pd.DataFrame(list, columns=['TxHash', 'BlockHeight', ' TimeStamp', 'From', 'To', 'Value', 'ContractAddress', 'Input'])
-    
-
-            
     return newtx
 
 
