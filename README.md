@@ -34,3 +34,5 @@ It also has a preview of the dataset used,(This dataset contains benign Ethereum
 * matplotlib==3.7.0
 * pandas==1.5.3 
 * seaborn==0.12.2
+* PyQt5==5.15.4
+
