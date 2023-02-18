@@ -9,7 +9,8 @@ from sklearn.preprocessing import StandardScaler
 import sklearn.metrics as metrics
 
 
-
+  
+    
 class phishingDetector():
     
     def __init__(self,odf = pd.DataFrame(),y = "",neightbors=1) :
