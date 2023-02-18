@@ -33,8 +33,12 @@ This app can be downloaded from drive:
 
 https://drive.google.com/file/d/1Gm_UUo8ijopbgOrRNGiTIbtPXzdn0_Or/view?usp=share_link
 
-**Usage**:simply double-click on the MyProgram.exe file and follow the on-screen instructions.
+**Usage**: simply double-click on the Ether_Phishing_Classifier.exe file and follow the on-screen instructions.
 
+## Known issues
+
+- when executing, the dataset preprocessing procedure is carried out, and the KNN training, so it may take time to open depending on your system specs.
+- The file weight is 230mb due to the compression of the required data science libraries.
 
 ## Libs used:
 * scikit-learn==1.2.1
