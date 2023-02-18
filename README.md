@@ -28,7 +28,7 @@ New samples can be used to be classified by the previously trained model.
 
 It also has a preview of the dataset used,(This dataset contains benign Ethereum blockchain transfers and officially reported phishing scam address transfers. The source of the dataset is the following [**research article**](https://ieeexplore.ieee.org/document/9943287)
 
-##Download
+## Download
 This app can be downloaded from drive:
 
 https://drive.google.com/file/d/1Gm_UUo8ijopbgOrRNGiTIbtPXzdn0_Or/view?usp=share_link
