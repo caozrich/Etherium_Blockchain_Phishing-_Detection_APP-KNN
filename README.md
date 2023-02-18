@@ -5,9 +5,12 @@
   <h2 align="center">Ether_Phishing_Classifier</h2>
 </p>
 
+## Contents
+- [Description](#Description)
+- [About](#About)
+
 ## Description
 The major blochains have been implicated in problems related to cyberattacks, scams, ponzi and pishing, the latter associated with at least 50% of cybercrime in the etherium network. this app is an example of how we can use the k-Nearest Neighbor classification algorithm for this particular problem. although there are many limitations to creating a predictive model good enough to counteract the occurrence of these problems, this app demonstrates that ways of dealing with them are also being developed.
-
 
 ## About
 
@@ -25,6 +28,12 @@ New samples can be used to be classified by the previously trained model.
 
 It also has a preview of the dataset used,(This dataset contains benign Ethereum blockchain transfers and officially reported phishing scam address transfers. The source of the dataset is the following [**research article**](https://ieeexplore.ieee.org/document/9943287)
 
+##Download
+This app can be downloaded from drive:
+
+https://drive.google.com/file/d/1Gm_UUo8ijopbgOrRNGiTIbtPXzdn0_Or/view?usp=share_link
+
+**Usage**:simply double-click on the MyProgram.exe file and follow the on-screen instructions.
 
 
 ## Libs used:
@@ -36,3 +45,5 @@ It also has a preview of the dataset used,(This dataset contains benign Ethereum
 * seaborn==0.12.2
 * PyQt5==5.15.4
 
+#### Support:
+If you have any questions or problems with the app, please contact the author at libreros00@gmail.com
