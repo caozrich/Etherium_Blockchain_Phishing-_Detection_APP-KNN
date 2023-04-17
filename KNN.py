@@ -32,7 +32,7 @@ class phishingDetector():
 
     def preprocessing(self,df,y):
 
-        X_train, X_test, y_train, y_test = train_test_split(df, y,shuffle=True, test_size=0.2, random_state=42, stratify=y)
+        X_train, X_test, y_train, y_test = train_test_split(df, y,shuffle=True, test_size=0.2, random_state=42, stratify=y) #split the data into train and test
         
         global test
         test = X_test.copy()
