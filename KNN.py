@@ -15,16 +15,16 @@ class phishingDetector():
     
     def __init__(self,odf = pd.DataFrame(),y = "",neightbors=1) :
         self.df     = odf.copy()
-        self.y      = y  #independent variable name from the dataset
+        self.y      = y  
         self.neightbors = neightbors
         self.f1 = 0
         path = resource_path('complete_balanced_dataset.csv')      
         df = pd.read_csv(path)  
 
-        y    = df["Class"]
-        df   = df.drop("Class", axis=1)
+        y    = df["Class"]  #target variable
+        df   = df.drop("Class", axis=1) 
 
-        X_train_prep, X_test_prep,y_train,y_test = self.preprocessing(df,y)
+        X_train_prep, X_test_prep,y_train,y_test = self.preprocessing(df,y) 
         
         self.trainAlgorithm(X_train_prep, X_test_prep,y_train,y_test)
         
@@ -52,13 +52,13 @@ class phishingDetector():
     
     def scaling(self, X_train, X_test, y_train, y_test):
         
-        ss = StandardScaler()
+        ss = StandardScaler() #scaler
 
-        X_train_transformed = ss.fit_transform(X_train)
+        X_train_transformed = ss.fit_transform(X_train) 
         X_test_transformed = ss.fit_transform(X_test) 
         
     
-        X_train_transformed = pd.DataFrame(X_train_transformed, columns=X_train.columns, index=y_train.index)
+        X_train_transformed = pd.DataFrame(X_train_transformed, columns=X_train.columns, index=y_train.index) #array to df
         X_test_transformed  = pd.DataFrame(X_test_transformed, columns=X_test.columns, index=y_test.index)
         return X_train_transformed,X_test_transformed
                 
@@ -85,7 +85,7 @@ class phishingDetector():
         y_pred  = clf_tree.predict(X_test_prep)
 
 
-        f1 = f1_score(y_pred, y_test)
+        f1 = f1_score(y_pred, y_test) #apply f1 score to test dataset results
 
   
         #---some ev.metrics----
