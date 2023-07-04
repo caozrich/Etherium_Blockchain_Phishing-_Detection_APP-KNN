@@ -11,7 +11,8 @@
 - [Download](#Download)
 
 ## Description
-The major blochains have been implicated in problems related to cyberattacks, scams, ponzi and pishing, the latter associated with at least 50% of cybercrime in the etherium network. this app is an example of how we can use the k-Nearest Neighbor classification algorithm for this particular problem. although there are many limitations to creating a predictive model good enough to counteract the occurrence of these problems, this app demonstrates that ways of dealing with them are also being developed.
+
+The major blochains have been implicated in problems related to cyberattacks, scams, ponzi and pishing, the latter associated with at least 50% of cybercrime in the etherium network. this application uses a dataset of transactions in the etherium blochain to classify by means of a KNN algorithm those that are pishing (the scope of this application is limited to the samples obtained from the dataset).
 
 ## About
 
